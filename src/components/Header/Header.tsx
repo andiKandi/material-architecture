@@ -24,8 +24,10 @@ export const Header = () => {
       <ul className="header__nav">
         {navPaths.map((navPath) => {
           return (
-            <li key={navPath.name} className="nav__item">
-              <Link to={navPath.path}>{navPath.name}</Link>
+            <li key={navPath.name}>
+              <Link className="nav__item" to={navPath.path}>
+                {navPath.name}
+              </Link>
             </li>
           );
         })}

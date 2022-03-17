@@ -1,6 +1,21 @@
-
 .background {
+  padding: 250px 0;
+  background:#ffffff url("../../assets/handshake.webp");
   width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
 
-  align-content: center;
+.greeting {
+  padding: 25px;
+  width: 500px;
+  background-color: white;
+  height: 100%;
+}
+
+.contact-info {
+
+  list-style-type: none;
+  padding-inline-start: 0
 }
