@@ -1,0 +1,23 @@
+.header {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
+  list-style-type: none;
+  padding-inline-start: 0
+}
+
+.nav__item {
+  margin: 0 0 0 25px;
+}
+.nav__item:hover{
+  text-decoration: underline;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

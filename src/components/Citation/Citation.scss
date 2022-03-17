@@ -1,0 +1,16 @@
+.citation {
+  display: flex;
+  justify-content: center;
+  border-bottom: burlywood 0.5em solid;
+  border-top: burlywood 0.5em solid;
+  margin: 25px;
+}
+
+.citation__saying {
+  font-size: xx-large;
+}
+
+.citation__author {
+  text-align: right;
+  font-size: larger;
+}
