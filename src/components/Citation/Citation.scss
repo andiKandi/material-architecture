@@ -1,9 +1,11 @@
+@import "src/constants/style.scss";
+
 .citation {
   display: flex;
   justify-content: center;
   border-bottom: #C99E60 0.5em solid;
   border-top: #C99E60 0.5em solid;
-  margin: 25px;
+  margin: $margin--large;
 }
 
 .citation__saying {

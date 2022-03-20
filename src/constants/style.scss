@@ -1,0 +1,23 @@
+// margin
+$margin--small: 8px;
+$margin--medium: 16px;
+$margin--large: 25px;
+
+// padding
+$padding--small: 8px;
+$padding--medium: 16px;
+$padding--large: 25px;
+
+// responsive
+$smartphone: "screen and (max-width: 767px)";
+$tablet: "screen and (min-width : 768px)";
+$desktop: "screen and (min-width : 1280px)";
+$menu-mobile: "screen and (max-width: 1343px)";
+$menu-desktop: "screen and (min-width: 1344px)";
+
+// colors
+$background: #191818;
+
+// hover colors
+$hover-background-light: #efefef;
+$hover-background-dark: #414959;

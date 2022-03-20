@@ -1,13 +1,35 @@
+@import "src/constants/style.scss";
+
 .architect__picture {
   height: 200px;
+  margin-right: $margin--large;
 }
 
 .architect {
-  margin: 0 25px;
+  margin: 0 $margin--large;
 }
 
 .architects {
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
+}
+
+.modal__box {
+  display: flex;
+}
+
+.modal__contact-info {
+  list-style-type: none;
+  padding-inline-start: 0
+}
+
+.modal__list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: $margin--medium;
+}
+
+.modal__icon {
+  margin: 0 $margin--small 0 0 ;
 }

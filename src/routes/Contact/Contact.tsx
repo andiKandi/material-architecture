@@ -4,12 +4,15 @@ import EmailIcon from "@mui/icons-material/Email";
 import "./Contact.scss";
 import {
   ArchitectProps,
-  Architects,
+  Architect,
 } from "../../components/Architect/Architect";
+import Box from "@mui/material/Box";
+import Paper from "@mui/material/Paper";
 
 import Rick from "../../assets/rick.jpg";
 import Morty from "../../assets/morty.webp";
 import Stewie from "../../assets/stewie.png";
+import React from "react";
 
 const architects: ArchitectProps[] = [
   {
@@ -38,8 +41,8 @@ const architects: ArchitectProps[] = [
 export const Contact = () => {
   return (
     <Page>
-      <div className="background">
-        <div className="greeting">
+      <Box className="background">
+        <Paper elevation={3} className="greeting">
           <h2>Willkommen!</h2>
           <p>
             Danke für Ihr Interesse. Wir freuen uns darauf Ihren Wünsche ein
@@ -59,9 +62,22 @@ export const Contact = () => {
               </li>
             </ul>
           </address>
-        </div>
+        </Paper>
+      </Box>
+      <div className="architects">
+        {architects.map((architect) => {
+          return (
+            <Architect
+              key={architect.name}
+              name={architect.name}
+              title={architect.title}
+              image={architect.image}
+              telephone={architect.telephone}
+              email={architect.email}
+            />
+          );
+        })}
       </div>
-      <Architects architects={architects} />
     </Page>
   );
 };

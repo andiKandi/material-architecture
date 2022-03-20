@@ -1,10 +1,13 @@
+@import "src/constants/style.scss";
+
 .background {
-  padding: 175px 0;
+  padding: 150px 0;
   background:#ffffff url("../../assets/handshake.webp") no-repeat;
   width: 100%;
   overflow: hidden;
   display: flex;
   justify-content: center;
+  margin-bottom: $margin--large;
 }
 
 .greeting {
@@ -20,5 +23,5 @@
 }
 
 .contact-info__icon {
-  margin: 10px 10px 0 0 ;
+  margin: 0 10px 0 0 ;
 }
