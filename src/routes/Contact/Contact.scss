@@ -1,6 +1,6 @@
 .background {
-  padding: 250px 0;
-  background:#ffffff url("../../assets/handshake.webp");
+  padding: 175px 0;
+  background:#ffffff url("../../assets/handshake.webp") no-repeat;
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -15,7 +15,10 @@
 }
 
 .contact-info {
-
   list-style-type: none;
   padding-inline-start: 0
+}
+
+.contact-info__icon {
+  margin: 10px 10px 0 0 ;
 }

@@ -10,9 +10,10 @@ interface NavigationPaths {
 }
 
 const navPaths: NavigationPaths[] = [
-  { name: "PORTFOLIO", path: "/" },
-  { name: "ÜBER UNS", path: "/about-us" },
-  { name: "KONTAKT", path: "/contact" },
+  { name: "Home", path: "/" },
+  { name: "Portfolio", path: "/portfolio" },
+  { name: "über uns", path: "/about-us" },
+  { name: "Kontakt", path: "/contact" },
 ];
 
 export const Header = () => {

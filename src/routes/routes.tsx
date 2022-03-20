@@ -1,5 +1,7 @@
 import { Homepage } from "./Homepage/Homepage";
 import { Contact } from "./Contact/Contact";
+import { AboutUs } from "./AboutUs/AboutUs";
+import { Portfolio } from "./Portfolio/Portfolio";
 
 export interface Route {
   path: string;
@@ -17,5 +19,15 @@ export const routes: Route[] = [
     path: "/contact",
     name: "contact",
     component: <Contact />,
+  },
+  {
+    path: "/about-us",
+    name: "about-us",
+    component: <AboutUs />,
+  },
+  {
+    path: "/portfolio",
+    name: "portfolio",
+    component: <Portfolio />,
   },
 ];
