@@ -31,7 +31,7 @@ const architects: ArchitectProps[] = [
   },
   {
     name: "Stewie Griffin",
-    title: "Morderous Baby",
+    title: "Murderous Baby",
     image: Stewie,
     telephone: "+491792091572",
     email: "..",
@@ -50,13 +50,13 @@ export const Contact = () => {
           </p>
           <address>
             <ul className="contact-info">
-              <li>
+              <li className="contact-info__list-item">
                 <EmailIcon className="contact-info__icon" />
                 <a href="mailto:iskenderkaragoez@gmail.com">
                   Iskender Caliskan
                 </a>
               </li>
-              <li>
+              <li className="contact-info__list-item">
                 <AddIcCallIcon className="contact-info__icon" />
                 <a href="tel:+491792091572">+49 179 2091572</a>
               </li>

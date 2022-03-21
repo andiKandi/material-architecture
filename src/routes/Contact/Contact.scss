@@ -19,7 +19,13 @@
 
 .contact-info {
   list-style-type: none;
-  padding-inline-start: 0
+  padding-inline-start: 0;
+}
+
+.contact-info__list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: $margin--medium;
 }
 
 .contact-info__icon {
